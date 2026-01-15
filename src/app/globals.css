@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+
+/* TELLS TAILWIND V4 TO USE THE .dark CLASS FOR DARK MODE */
+@variant dark (&:where(.dark, .dark *));
+
+/* Define standard colors for light/dark mode using CSS variables */
+:root {
+  --background: #ffffff; /* White background for light mode */
+  --foreground: #171717; /* Dark text for light mode */
+}
+
+/* Tailwind automatically applies these when dark mode is active */
+.dark {
+  --background: #0a0a0a; /* Very dark grey for dark mode background */
+  --foreground: #ededed; /* Light grey text for dark mode */
+}
+
+/* Apply base styles to the body */
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: sans-serif; /* We can change fonts later */
+  scroll-behavior: smooth; /* Makes clicking anchor links feel nice */
+}
+
+/* Standard utility to ensure images don't overflow their containers */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
