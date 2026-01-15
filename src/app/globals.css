@@ -22,6 +22,7 @@ body {
   background: var(--background);
   font-family: sans-serif; /* We can change fonts later */
   scroll-behavior: smooth; /* Makes clicking anchor links feel nice */
+  /* text-align: justify !important; */
 }
 
 /* Standard utility to ensure images don't overflow their containers */

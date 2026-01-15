@@ -21,7 +21,7 @@ export const projectsData: Project[] = [
     title: "AI-powered UpWork Agency Management System",
     description: "A full-stack system combining React.js and Flask with SQLAlchemy. Features automated proposal generation via Gemini API, AI-driven job scraping with Selenium, JWT authentication, and an intelligent resume-job matcher using Sentence Transformers.",
     techStack: ["React.js", "Flask", "Python", "Selenium", "Gemini API", "SQLAlchemy", "JWT", "Sentence Transformers"],
-    image: "/upwork-project.png", // REPLACE WITH REAL IMAGE
+    image: "/upwork-project.PNG", // REPLACE WITH REAL IMAGE
     githubLink: "https://github.com/Khalilullah-Nohri/AI-powered-UpWork-Agency-Management-System",
     featured: true,
   },

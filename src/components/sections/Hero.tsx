@@ -107,7 +107,7 @@ const Hero = () => {
               <a
                 href="/Khalilullah-Resume.pdf"
                 download="Khalilullah-Nohri-Resume.pdf"
-                className="px-6 py-3 lg:px-8 lg:py-4 text-sm lg:text-lg font-bold rounded-xl text-slate-700 dark:text-slate-200 bg-white/50 dark:bg-slate-800/50 border-2 border-slate-200 dark:border-slate-700 hover:border-blue-600 dark:hover:border-blue-400 transition-all transform hover:-translate-y-1 flex items-center backdrop-blur-md"
+                className="px-4 py-3 lg:px-8 lg:py-4 text-sm lg:text-lg font-bold rounded-xl text-slate-700 dark:text-slate-200 bg-white/50 dark:bg-slate-800/50 border-2 border-slate-200 dark:border-slate-700 hover:border-blue-600 dark:hover:border-blue-400 transition-all transform hover:-translate-y-1 flex items-center backdrop-blur-md"
               >
                 <Download size={20} className="mr-2" />
                 Download CV
