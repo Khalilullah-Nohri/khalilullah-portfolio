@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://khalilullah-portfolio.vercel.app", // CHANGE THIS to your actual domain later
+    url: "https://khalilullah-nohri-portfolio.vercel.app", // CHANGE THIS to your actual domain later
     title: "Khalilullah Nohri | Software & DevOps Engineer",
     description:
       "Bridging the gap between complex backend logic, modern frontend experiences, and scalable cloud infrastructure.",
