@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 // --- SEO METADATA CONFIGURATION ---
 export const metadata: Metadata = {
   // 1. ADD THIS LINE TO FIX THE WARNING
-  // (Replace with your actual Vercel URL once you have it, for now use this placeholder)
+
   metadataBase: new URL("https://khalilullah-nohri-portfolio.vercel.app"),
   // Title Template: ensures sub-pages (if you add them) look like "Projects | Khalilullah Nohri"
   title: {
