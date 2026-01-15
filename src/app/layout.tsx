@@ -13,6 +13,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 // --- SEO METADATA CONFIGURATION ---
 export const metadata: Metadata = {
+  // 1. ADD THIS LINE TO FIX THE WARNING
+  // (Replace with your actual Vercel URL once you have it, for now use this placeholder)
+  metadataBase: new URL("https://khalilullah-nohri-portfolio.vercel.app"),
   // Title Template: ensures sub-pages (if you add them) look like "Projects | Khalilullah Nohri"
   title: {
     default: "Khalilullah Nohri | Software & DevOps Engineer",
@@ -20,7 +23,7 @@ export const metadata: Metadata = {
   },
   description:
     "Portfolio of Khalilullah Nohri, a Full-Stack Engineer specializing in Python, React, Next.js, and Cloud Automation (AWS/DevOps). Engineered in Pakistan.",
-  
+
   // Keywords for Google Search
   keywords: [
     "Khalilullah Nohri",
@@ -62,7 +65,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Khalilullah Nohri | Software & DevOps Engineer",
-    description: "Building robust, scalable applications and automating cloud infrastructure.",
+    description:
+      "Building robust, scalable applications and automating cloud infrastructure.",
     images: ["/profile.jpg"], // Uses your profile pic
     // creator: "@yourtwitterhandle", // Optional: Add if you have a professional Twitter
   },
@@ -103,9 +107,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
           {/* pt-16 ensures content isn't hidden behind the fixed Navbar */}
-          <main className="pt-16 min-h-screen flex flex-col">
-            {children}
-          </main>
+          <main className="pt-16 min-h-screen flex flex-col">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>
