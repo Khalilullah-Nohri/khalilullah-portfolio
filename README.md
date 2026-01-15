@@ -49,7 +49,7 @@ Follow these steps to run the portfolio locally on your machine.
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/Khalilullah-Nohri/khalilullah-portfolio.git](https://github.com/Khalilullah-Nohri/khalilullah-portfolio.git)
+    git clone https://github.com/Khalilullah-Nohri/khalilullah-portfolio.git
     cd khalilullah-portfolio
     ```
 
@@ -73,7 +73,7 @@ Follow these steps to run the portfolio locally on your machine.
 ## 📂 Project Structure
 
 ```text
-Khalilullah-portfolio
+khalilullah-portfolio
 ├── public                          # Static assets (images, icons, PDFs) served from root
 │   ├── Khalilullah-Resume.pdf      # Downloadable Resume/CV
 │   ├── cert-genai.png              # Certification images
