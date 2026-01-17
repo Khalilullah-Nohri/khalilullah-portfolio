@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     siteName: "Khalilullah Nohri Portfolio",
     images: [
       {
-        url: "/profile.jpg", // Uses your profile pic as the preview image
+        url: "/temp.jpg", // Uses your profile pic as the preview image
         width: 1200,
         height: 630,
         alt: "Khalilullah Nohri - Software Engineer",
