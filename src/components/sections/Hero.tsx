@@ -172,7 +172,7 @@ const Hero = () => {
             {/* Image Container */}
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[20rem] lg:h-[20rem] rounded-[2rem] sm:rounded-[2.5rem] overflow-hidden border-[6px] sm:border-[8px] border-white/80 dark:border-slate-800/80 shadow-2xl z-10 ring-1 ring-slate-900/5 dark:ring-white/10 backdrop-blur-sm">
               <Image
-                src="/temp.jpg"
+                src="/profile.jpg"
                 alt="Khalilullah Nohri"
                 fill
                 className="object-cover"
