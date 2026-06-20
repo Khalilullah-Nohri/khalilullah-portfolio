@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://khalilullah-nohri-portfolio.vercel.app"),
   // Title Template: ensures sub-pages (if you add them) look like "Projects | Khalilullah Nohri"
   title: {
-    default: "Khalilullah Nohri | Software & DevOps Engineer",
+    default: "Khalilullah Nohri | Software Engineer | DevOps & Cloud",
     template: "%s | Khalilullah Nohri",
   },
   description:
