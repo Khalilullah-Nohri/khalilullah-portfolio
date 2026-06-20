@@ -10,17 +10,28 @@ export interface Experience {
 export const experienceData: Experience[] = [
   {
     id: 1,
+    role: "Trainee Consultant - DevOps",
+    company: "Systems Limited",
+    period: "03/2026 – Present",
+    location: "Karachi, Pakistan",
+    description: [
+      "Conducting intensive Research and Development (R&D) focused on Azure DevOps methodologies, cloud infrastructure, and enterprise-level deployment strategies.",
+      "Actively upskilling in modern CI/CD automation practices and preparing for industry-recognized certifications, including GitHub Actions.",
+    ],
+  },
+  {
+    id: 2,
     role: "Trainee Engineer",
     company: "Sui Southern Gas Company Limited (SSGCL)",
     period: "01/2024 – 12/2025",
     location: "Karachi, Pakistan",
     description: [
-      "Legacy System Replaced with Modern Desktop App: Designed and developed a Python (PyQt)-based desktop application integrated with Oracle DB, eliminating manual tasks on legacy AIX OS.Improved process reliability and reduced operational delays by ~50%.",
+      "Legacy System Replaced with Modern Desktop App: Designed and developed a Python (PyQt)-based desktop application integrated with Oracle DB, eliminating manual tasks on legacy AIX OS. Improved process reliability and reduced operational delays by ~50%.",
       "Boosted Web Experience with UI Revamp: Redesigned the official SSGC website homepage; created mockups and implemented a responsive UI using HTML, TailwindCSS, Bootstrap, and modern ES6 JavaScript.",
     ],
   },
   {
-    id: 2,
+    id: 3,
     role: "IT Officer",
     company: "National Bank of Pakistan (NBP)",
     period: "02/2023 – 12/2023",
@@ -32,7 +43,7 @@ export const experienceData: Experience[] = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     role: "DevOps Trainee",
     company: "SkipQ",
     period: "07/2022 – 11/2022",
@@ -44,15 +55,15 @@ export const experienceData: Experience[] = [
       "Worked hands-on with Docker and containers.",
     ],
   },
-  {
-    id: 4,
-    role: "Front-end Internee",
-    company: "Interns Pk",
-    period: "02/2022 – 03/2022",
-    location: "Remote",
-    description: [
-      "Completed a 1.5 months hands-on internship working with HTML5, CSS3, JavaScript (ES6+), jQuery, and React.js.",
-      "Practical use of React Router v5, Google Sheets API, React Bootstrap, and Fetch API for real-world project implementation.",
-    ],
-  },
+  // {
+  //   id: 5,
+  //   role: "Front-end Internee",
+  //   company: "Interns Pk",
+  //   period: "02/2022 – 03/2022",
+  //   location: "Remote",
+  //   description: [
+  //     "Completed a 1.5 months hands-on internship working with HTML5, CSS3, JavaScript (ES6+), jQuery, and React.js.",
+  //     "Practical use of React Router v5, Google Sheets API, React Bootstrap, and Fetch API for real-world project implementation.",
+  //   ],
+  // },
 ];

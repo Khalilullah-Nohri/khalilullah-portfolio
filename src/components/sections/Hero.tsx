@@ -81,7 +81,7 @@ const Hero = () => {
               variants={textVariants}
               className="text-2xl sm:text-3xl lg:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-indigo-600 dark:from-blue-400 dark:to-indigo-400 mb-6"
             >
-              Software Engineer | DevOps & Cloud
+              Software Engineer | DevOps & Cloud Infrastructure
             </motion.h2>
     
             <motion.p
@@ -148,7 +148,7 @@ const Hero = () => {
                   Javascript & React.js/Next.js
                 </li>
                 <li className="flex items-center">
-                  <CheckCircle2 className="text-blue-500 mr-2" size={18} /> AWS
+                  <CheckCircle2 className="text-blue-500 mr-2" size={18} /> AWS & Azure
                   Cloud 
                 </li>
                 <li className="flex items-center">

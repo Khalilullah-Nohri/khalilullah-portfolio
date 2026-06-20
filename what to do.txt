@@ -1,0 +1,6 @@
+Legacy System Replaced with Modern Desktop App: Designed and developed a Python (PyQt)-based desktop application integrated with Oracle DB, eliminating manual tasks on legacy AIX OS.Improved process reliability and reduced operational delays by ~50%.
+Boosted Web Experience with UI Revamp: Redesigned the official SSGC website homepage; created mockups and implemented a responsive UI using HTML, TailwindCSS, Bootstrap, and modern ES6 JavaScript.
+
+Used AI tools to reverse-engineer undocumented Java codebases and produced detailed flow documents. These serve as onboarding guides and reduce future update efforts by ~60% for new team members.
+
+add job exprince, cgpa add, certificate PEC correction,

@@ -1,7 +1,7 @@
 "use client";
 
 import SectionWrapper from "@/components/ui/SectionWrapper";
-import { GraduationCap, Calendar, MapPin, BookOpen } from "lucide-react";
+import { GraduationCap, Calendar, MapPin, BookOpen, Search } from "lucide-react";
 
 const Education = () => {
   return (
@@ -44,8 +44,16 @@ const Education = () => {
                 </p>
 
                 <div className="flex items-center text-sm text-neutral-500 dark:text-neutral-400 mb-6">
-                    <MapPin size={16} className="mr-1" />
-                    Jamshoro, Pakistan
+                    {/* <MapPin size={16} className="mr-1" />
+                    Jamshoro, Pakistan */}
+
+                    <span className="flex items-center">
+                        <MapPin size={16} className="mr-1" />
+                        Jamshoro, Pakistan
+                    </span>
+                    <span className="px-2 py-0.5 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 rounded-md font-bold">
+                        CGPA: 3.55/4.00
+                    </span>
                 </div>
 
                 {/* Core Subjects Section */}
@@ -60,8 +68,10 @@ const Education = () => {
                 </div>
 
                 <div className="border-t border-neutral-200 dark:border-neutral-800 pt-4">
-                    <p className="text-neutral-600 dark:text-neutral-300">
-                        <span className="font-bold text-neutral-900 dark:text-white">FYP: Smart Surveillance System</span>
+                    <p className="flex items-center text-sm font-bold text-neutral-900 dark:text-white">
+                        <Search size={16} className="mr-2 text-blue-500" />
+                        {/* Thesis: Public Distrust in the NGO Sector */}
+                        FYP: Smart Surveillance System
                     </p>
                     <p className="text-sm text-neutral-500 dark:text-neutral-400 mt-1 leading-relaxed">
                         Automated door lock system using Flask, Twilio, and Raspberry Pi with facial detection to trigger messaging and gate control.
